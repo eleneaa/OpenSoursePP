@@ -85,7 +85,7 @@ Key features of Feeds Fun include:
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\introduction.png" alt="introduction">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\introduction.png" alt="introduction">
 
 
 
@@ -107,17 +107,17 @@ Key features of Feeds Fun include:
 
 3. Paste the link in the Search for a Feed field in the Discovery section
 
-<image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds1.png" alt="figure 1">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\addingNewsfeeds1.png" alt="figure 1">
 
 4. There may be two options:
 
     4.1. If the algorithm reads the necessary website as a source, then the links will appear in the Discovery section on the website https://feeds.fun/discovery
 
-<image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds2.png" alt="figure 2">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\addingNewsfeeds2.png" alt="figure 2">
 
 	4.2 You need to enter the link (e.g. https://www.e1.ru/) in the field if the algorithm does not read this news source. If this is the case, perform the following action
 
-<image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds3.png" alt="figure 3">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\addingNewsfeeds3.png" alt="figure 3">
 
 5. If the algorithm is not executed correctly, you need to find a new source until you are satisfied with the requirements of the website and the algorithm reads it.
 
@@ -131,7 +131,7 @@ There is also an option to exchange structured information between applications 
 
 2. Find Lood feeds from an OPML file on it.
 
-<p><image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds4.png" alt="figure 4">
+<p><image style="max-width: 60%; height: auto; max-height: 400px;" src="images\addingNewsfeeds4.png" alt="figure 4">
 
 3. Click the “add file” button and if the file has a suitable type, the upload will be successful.
 
@@ -183,13 +183,13 @@ That’s all, have a nice experience and thank you for supporting the project!
 
 	If you think that one tag is not enough to accurately describe the news, you can add additional tags. To do this, simply click on several tags at once.
 
-<image style="max-width: 100%; height: auto;" src="images\creatingRules2.png" alt="figure 2">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\creatingRules2.png" alt="figure 2">
 
 4. Set the tag rating
 
 	Each tag can be assigned a rating that reflects your interest in this topic. For example, for the “sport” tag, you can set a high rating if you are interested in sports, and for the “mathematics” tag, a low rating if mathematics does not interest you.
 
-<image style="max-width: 100%; height: auto;" src="images\creatingRules1.png" alt="figure 1">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\creatingRules1.png" alt="figure 1">
 
 5. Click “create rule”
 
@@ -215,11 +215,11 @@ That’s all, have a nice experience and thank you for supporting the project!
 
 	1.1 Time range selector. In the For field, select the time range value
 
-<image style="max-width: 100%; height: auto;" src="images\newsSorting1.png" alt="Figure 1">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\newsSorting1.png" alt="Figure 1">
 
 	1.2 Sorting type selection. In the Sort by field, select the sorting type:
 
-<image style="max-width: 100%; height: auto;" src="images\newsSorting2.png" alt="Figure 2">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\newsSorting2.png" alt="Figure 2">
 
 	– Score - sort by descending tag rating. The tag rating is set when creating rules.
 
@@ -233,11 +233,11 @@ That’s all, have a nice experience and thank you for supporting the project!
 
 	1.3 Tag selection. From the resulting news selection, a list of tags assigned to articles is formed, indicating the number of articles with this tag
 
-<image style="max-width: 100%; height: auto;" src="images\newsSorting3.png" alt="Figure 3">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\newsSorting3.png" alt="Figure 3">
 
 	– Specific tags can be found by writing the tag completely or its part in the Input part of the tag… field
 
-<p><image style="max-width: 100%; height: auto;" src="images\newsSorting4.png" alt="Figure 4">
+<p><image style="max-width: 60%; height: auto; max-height: 400px;" src="images\newsSorting4.png" alt="Figure 4">
 
 2. Display options
 
@@ -245,9 +245,9 @@ That’s all, have a nice experience and thank you for supporting the project!
 
 	2.2 The Show tags option controls whether tags are displayed in the news list (Figures 5, 6)
 
-<image style="max-width: 100%; height: auto;" src="images\newsSorting3.png" alt="Figure 5">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\newsSorting3.png" alt="Figure 5">
 
-<image style="max-width: 100%; height: auto;" src="images\newsSorting3.png" alt="Figure 6">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\newsSorting3.png" alt="Figure 6">
 
 
 
@@ -271,7 +271,7 @@ Initially, all news is displayed in chronological order, but with the help of fi
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\news.png" alt="Figure 6">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\news.png" alt="Figure 6">
 
 
 
@@ -301,7 +301,7 @@ Show failed - is responsible for the order of displaying links with errors You c
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\feeds.png" alt="Figure 6">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\feeds.png" alt="Figure 6">
 
 
 
@@ -311,7 +311,7 @@ Show failed - is responsible for the order of displaying links with errors You c
 
 In this tab, you can view all rules created by you (detailed tutorial for creating rules: [Creating rules](#creating-rules)).
 
-<image style="max-width: 100%; height: auto;" src="images\rules1.png" alt="Figure 1">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\rules1.png" alt="Figure 1">
 
 Also:
 
@@ -319,11 +319,11 @@ Also:
 
 1. Change the rating of an already created rule or delete the rule itself
 
-<image style="max-width: 100%; height: auto;" src="images\rules2.png" alt="Figure 2">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\rules2.png" alt="Figure 2">
 
 2. Sort rules by tags, rating, date of creation, and date of update
 
-<image style="max-width: 100%; height: auto;" src="images\rules3.png" alt="Figure 3">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\rules3.png" alt="Figure 3">
 
 3. From the resulting selection of rules, a list of tags selected in the rules is formed, indicating the number of rules with this tag (pic.5)
 
@@ -341,7 +341,7 @@ In the Discovery tab, you can add new sources of articles, there is also an opti
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\discovery.png" alt="Figure 6">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\discovery.png" alt="Figure 6">
 
 
 
@@ -365,7 +365,7 @@ Also you can also subscribe for tokens.
 
 
 
-<p><image style="max-width: 100%; height: auto;" src="images\Collections1.png" alt="Figure 6">
+<p><image style="max-width: 60%; height: auto; max-height: 400px;" src="images\Collections1.png" alt="Figure 6">
 
 
 
@@ -377,23 +377,23 @@ Also you can also subscribe for tokens.
 
 1. There is a user id in the section.
 
-<p><image style="max-width: 100%; height: auto;" src="images\settings1.png" alt="Figure 1">
+<p><image style="max-width: 60%; height: auto; max-height: 400px;" src="images\settings1.png" alt="Figure 1">
 
 2. You can set access to Open AI.
 
-<image style="max-width: 100%; height: auto;" src="images\settings2.png" alt="Figure 2">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\settings2.png" alt="Figure 2">
 
 3. How many tokens can be in the site, in your account
 
-<image style="max-width: 100%; height: auto;" src="images\settings3.png" alt="Figure 3">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\settings3.png" alt="Figure 3">
 
 4. When using the Open AI key, there’s a rule for the users so that the users don’t spend a lot of tokens. You can set news by date added, for example not older than 3 days.
 
-<image style="max-width: 100%; height: auto;" src="images\settings4.png" alt="Figure 4">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\settings4.png" alt="Figure 4">
 
 5. You can see the number of used tokens in processed requests, reserved tokens for requests, and how many total tokens were used in a month.
 
-<image style="max-width: 100%; height: auto;" src="images\settings5.png" alt="Figure 5">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\settings5.png" alt="Figure 5">
 
 
 
@@ -419,7 +419,7 @@ The processes for determining tags are performed using processors located in the
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\tegging1.png" alt="Figure 1">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\tegging1.png" alt="Figure 1">
 
 
 
@@ -427,7 +427,7 @@ The main code for working with OpenAI is located in the librarian/processors/ope
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\tegging2.png" alt="Figure 2">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\tegging2.png" alt="Figure 2">
 
 
 
@@ -447,7 +447,7 @@ Native tags are obtained using the feedparser module.
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\tegging3.png" alt="Figure 3">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\tegging3.png" alt="Figure 3">
 
 
 
@@ -455,7 +455,7 @@ Tagging the “upper-case-title” tag in the code occurs in this way:
 
 
 
-<image style="max-width: 100%; height: auto;" src="images\tegging4.png" alt="Figure 4">
+<image style="max-width: 60%; height: auto; max-height: 400px;" src="images\tegging4.png" alt="Figure 4">
 
 
 
