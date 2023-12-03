@@ -1,0 +1,562 @@
+<p><strong>table of contents</strong></p>
+<ul>
+<li><p><a href="#introduction">Introduction</a></p>
+<ul>
+<li><p><a href="#about-service">About the service</a></p></li>
+<li><p><a href="#features">Key features</a></p></li>
+</ul></li>
+<li><p><a href="#tutorials">Tutorials</a></p>
+<ul>
+<li><p><a href="#adding-newsfeeds">Adding newsfeeds</a></p></li>
+<li><p><a href="#OpenAi">Configuring integration with
+OpenAi</a></p></li>
+<li><p><a href="#creating-rules">Creating rules</a></p></li>
+<li><p><a href="#sorting">News sorting</a></p></li>
+</ul></li>
+<li><p><a href="#tab-description">Tab Description</a></p>
+<ul>
+<li><p><a href="#news">News</a></p></li>
+<li><p><a href="#feeds">Feeds</a></p></li>
+<li><p><a href="#rules">Rules</a></p></li>
+<li><p><a href="#discover">Discovery</a></p></li>
+<li><p><a href="#collections">Collections</a></p></li>
+<li><p><a href="#settings">Settings</a></p></li>
+</ul></li>
+<li><p><a href="#description">Description of the service’s
+operation</a></p>
+<ul>
+<li><p><a href="#frequency">Frequency of news loading</a></p></li>
+<li><p><a href="#assigning-tags">Tagging</a></p></li>
+</ul></li>
+<li><p><a href="#addition">Additional information</a></p>
+<ul>
+<li><p><a href="#description-files">Project File and Structure
+Description</a></p></li>
+<li><p><a href="#supported-forms">Supported formats of news
+sources</a></p></li>
+</ul></li>
+<li><p><a href="#faq">FAQ</a></p></li>
+</ul>
+<!-- headings -->
+<h2 id="introduction">Introduction</h2>
+<p><a id="about-service"></a></p>
+<h3 id="about-the-service">About the service</h3>
+<p>Feeds Fun is an advanced tool for those who want to stay up-to-date
+with the latest news. It is a smart system that automatically analyzes
+and tags all news using ChatGPT, and you can just enjoy the most
+interesting ones filtered by your individual rules. We understand that
+everyone has different interests, so we have provided the ability to add
+up to 50-100 tags to each individual news item, which allows you to
+customize your rules as precisely as possible.</p>
+<p><a id="features"></a></p>
+<h3 id="key-features">Key features</h3>
+<p>Key features of Feeds Fun include:</p>
+<ul>
+<li><p>Managing news feeds, including configuring automatic tagging of
+news items.</p></li>
+<li><p>Setting up news rating algorithms based on specified
+tags.</p></li>
+<li><p>Applying filters to exclude or show news with specific
+tags.</p></li>
+<li><p>Sorting news content by rating, publication date, and other
+parameters.</p></li>
+<li><p>Tracking the news you have already read.</p></li>
+<li><p>Supporting both multi-user and single-user modes.</p></li>
+</ul>
+<p><image style="max-width: 100%; height: auto;" src="images\introduction.png" alt="introduction"></p>
+<p><a id="tutorials"></a></p>
+<h2 id="tutorials">Tutorials</h2>
+<p><a id="adding-newsfeeds"></a></p>
+<h3 id="adding-newsfeeds">Adding newsfeeds</h3>
+<ol type="1">
+<li><p>Find the website that hosts the desired news feed</p></li>
+<li><p>Copy the website link (e.g., https://ria.ru/)</p></li>
+<li><p>Paste the link in the Search for a Feed field in the Discovery
+section</p></li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds1.png" alt="figure 1"></p>
+<ol start="4" type="1">
+<li><p>There may be two options:</p>
+<p>4.1. If the algorithm reads the necessary website as a source, then
+the links will appear in the Discovery section on the website
+https://feeds.fun/discovery</p></li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds2.png" alt="figure 2"></p>
+<pre><code>4.2 You need to enter the link (e.g. https://www.e1.ru/) in the field if the algorithm does not read this news source. If this is the case, perform the following action</code></pre>
+<p><image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds3.png" alt="figure 3"></p>
+<ol start="5" type="1">
+<li>If the algorithm is not executed correctly, you need to find a new
+source until you are satisfied with the requirements of the website and
+the algorithm reads it.</li>
+</ol>
+<p>There is also an option to exchange structured information between
+applications running on different operating systems, which is called
+OPML:</p>
+<ol type="1">
+<li><p>You need to go to the Discovery section.</p></li>
+<li><p>Find Lood feeds from an OPML file on it.</p></li>
+</ol>
+<p>
+<p><image style="max-width: 100%; height: auto;" src="images\addingNewsfeeds4.png" alt="figure 4"></p>
+<ol start="3" type="1">
+<li>Click the “add file” button and if the file has a suitable type, the
+upload will be successful.</li>
+</ol>
+<p><a id="OpenAi"></a></p>
+<h3 id="configuring-integration-with-openai">Configuring integration
+with OpenAi</h3>
+<ol type="1">
+<li><p>Go to https://platform.openai.com and log in to your
+account.</p></li>
+<li><p>Expand the left-hand navigation menu and go to “API”.</p></li>
+<li><p>We recommend creating a separate key for Feeds Fun.</p></li>
+<li><p>Copy the created key.</p></li>
+<li><p>Go to feeds.fun and click on “Settings”, then click on “Edit” in
+“OpenAI API key”.</p></li>
+<li><p>Paste the key and click “Save”.</p></li>
+<li><p>Optionally, adjust other settings.</p></li>
+<li><p>Go back to the openai website and open the “Settings” tab, then
+“Billing”.</p></li>
+<li><p>If you recently created an openai account, you will have a trial
+bonus. Otherwise, you need to top up your balance to the amount you want
+so that Feeds Fun can use the key.</p></li>
+</ol>
+<p>That’s all, have a nice experience and thank you for supporting the
+project!</p>
+<p><a id="creating-rules"></a></p>
+<h3 id="creating-rules">Creating rules</h3>
+<ol type="1">
+<li><p>Select an article</p>
+<p>The News tab contains a large number of articles. Select the title
+you like and click on it.</p></li>
+<li><p>Click on a tag</p>
+<p>When you read an article, you can select one or more tags that most
+accurately describe its content. Click on the corresponding tag that
+appears under the article’s title. If you want to see all the tags
+related to the article, click “more.”</p></li>
+<li><p>Add additional tags (optional)</p>
+<p>If you think that one tag is not enough to accurately describe the
+news, you can add additional tags. To do this, simply click on several
+tags at once.</p></li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\creatingRules2.png" alt="figure 2"></p>
+<ol start="4" type="1">
+<li><p>Set the tag rating</p>
+<p>Each tag can be assigned a rating that reflects your interest in this
+topic. For example, for the “sport” tag, you can set a high rating if
+you are interested in sports, and for the “mathematics” tag, a low
+rating if mathematics does not interest you.</p></li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\creatingRules1.png" alt="figure 1"></p>
+<ol start="5" type="1">
+<li><p>Click “create rule”</p>
+<p>After you have selected the tags and set the rating for each of them,
+click the “create rule” button. The program will save your rule by
+associating the selected tags with the ratings you assigned to them. The
+list of news will be updated immediately after you create the
+rule.</p></li>
+<li><p>Organizing news according to your preferences</p>
+<p>After creating rules, the program will filter and sort news according
+to your preferences. The rating for each tag will be taken into account
+when determining the priority of news.</p></li>
+<li><p>Improving rules and algorithm</p>
+<p>After you start using the program for reading news with tags, you may
+need to make changes and improve its performance. If you find that some
+rules give unwanted results, you can always edit the rules to optimize
+the algorithm and get more relevant news for you.</p></li>
+</ol>
+<p><a id="sorting"></a></p>
+<h3 id="news-sorting">News sorting</h3>
+<ol type="1">
+<li><p>Sorting options</p>
+<p>Open the News tab. In the upper left corner, there is a list of
+filters for sorting</p>
+<p>1.1 Time range selector. In the For field, select the time range
+value</p></li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\newsSorting1.png" alt="Figure 1"></p>
+<pre><code>1.2 Sorting type selection. In the Sort by field, select the sorting type:</code></pre>
+<p><image style="max-width: 100%; height: auto;" src="images\newsSorting2.png" alt="Figure 2"></p>
+<pre><code>– Score - sort by descending tag rating. The tag rating is set when creating rules.
+
+– Score ~ 0 - sort by tags whose rating is approximately equal to 0
+
+– Score backward - sort by ascending tag rating. The tag rating is set when creating rules.
+
+– Published - sort by the newest articles
+
+– Cataloged - sort by the time of news entry into the service database
+
+1.3 Tag selection. From the resulting news selection, a list of tags assigned to articles is formed, indicating the number of articles with this tag</code></pre>
+<p><image style="max-width: 100%; height: auto;" src="images\newsSorting3.png" alt="Figure 3"></p>
+<pre><code>– Specific tags can be found by writing the tag completely or its part in the Input part of the tag… field</code></pre>
+<p>
+<p><image style="max-width: 100%; height: auto;" src="images\newsSorting4.png" alt="Figure 4"></p>
+<ol start="2" type="1">
+<li><p>Display options</p>
+<p>2.1 The Show read option controls whether read news are displayed in
+the general list</p>
+<p>2.2 The Show tags option controls whether tags are displayed in the
+news list (Figures 5, 6)</p></li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\newsSorting3.png" alt="Figure 5"></p>
+<p><image style="max-width: 100%; height: auto;" src="images\newsSorting3.png" alt="Figure 6"></p>
+<p><a id="tab-description"></a></p>
+<h2 id="tab-description">Tab Description</h2>
+<p><a id="news"></a></p>
+<h3 id="news">News</h3>
+<p>In the “News” tab, the user can conveniently read and sort articles
+by various parameters. In this section, the user can find the latest
+news with the tags they are interested in. Each news item is accompanied
+by tags, which the user can rate (<a href="#creating-rules">tutorial for
+creating rules</a>).</p>
+<p>On the left panel, there are filters that allow you to configure the
+display of news by selected parameters. You can sort news by upload
+date, the presence of tags, or hide already read news. One of the useful
+functions is the ability to select tags that must be present in articles
+or, conversely, tags that should not be present in articles (<a
+href="#sorting">tutorial for news sorting</a>).</p>
+<p>Initially, all news is displayed in chronological order, but with the
+help of filters, the user can change the sorting of the news list in
+accordance with their preferences.</p>
+<p><image style="max-width: 100%; height: auto;" src="images\news.png" alt="Figure 6"></p>
+<p><a id="feeds"></a></p>
+<h3 id="feeds">Feeds</h3>
+<ol type="1">
+<li><p>This tab has filtering options for added news:</p>
+<ul>
+<li><p>title sorting by headings</p></li>
+<li><p>URL sorting by URLs</p></li>
+<li><p>loaded sorting by loading times</p></li>
+<li><p>added sorting by addition times</p></li>
+</ul></li>
+</ol>
+<p>Show descriptions - is responsible for displaying link
+descriptions</p>
+<p>Show failed - is responsible for the order of displaying links with
+errors You can also refresh the list of news.</p>
+<ol start="2" type="1">
+<li><p>To view the page content, you can click on the link.</p></li>
+<li><p>There is a deletion of news that is available on the site, as
+well as the date of its publication and the time of its
+modification.</p></li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\feeds.png" alt="Figure 6"></p>
+<p><a id="rules"></a></p>
+<h3 id="rules">Rules</h3>
+<p>In this tab, you can view all rules created by you (detailed tutorial
+for creating rules: <a href="#creating-rules">Creating rules</a>).</p>
+<p><image style="max-width: 100%; height: auto;" src="images\rules1.png" alt="Figure 1"></p>
+<p>Also:</p>
+<ol type="1">
+<li>Change the rating of an already created rule or delete the rule
+itself</li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\rules2.png" alt="Figure 2"></p>
+<ol start="2" type="1">
+<li>Sort rules by tags, rating, date of creation, and date of
+update</li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\rules3.png" alt="Figure 3"></p>
+<ol start="3" type="1">
+<li>From the resulting selection of rules, a list of tags selected in
+the rules is formed, indicating the number of rules with this tag
+(pic.5)</li>
+</ol>
+<p>– Certain tags can be found by writing the tag completely or
+partially in the Input part of the tag… field (pic.6)</p>
+<p><a id="discover"></a></p>
+<h3 id="discovery">Discovery</h3>
+<p>In the Discovery tab, you can add new sources of articles, there is
+also an option to exchange structured information between applications
+running on OPML. Detailed tutorial: <a href="#adding-newsfeeds">Adding
+news sources</a></p>
+<p><image style="max-width: 100%; height: auto;" src="images\discovery.png" alt="Figure 6"></p>
+<p><a id="collections"></a></p>
+<h3 id="collections">Collections</h3>
+<p>This section allows you to add your own news feeds using OpenAI
+tokens. By default, we have 2 news feed sections:</p>
+<ol type="1">
+<li><p>Gamedev</p></li>
+<li><p>Artificial Intelligence</p></li>
+</ol>
+<p>Also you can also subscribe for tokens.</p>
+<p>
+<p><image style="max-width: 100%; height: auto;" src="images\Collections1.png" alt="Figure 6"></p>
+<p><a id="settings"></a></p>
+<h3 id="settings">Settings</h3>
+<ol type="1">
+<li>There is a user id in the section.</li>
+</ol>
+<p>
+<p><image style="max-width: 100%; height: auto;" src="images\settings1.png" alt="Figure 1"></p>
+<ol start="2" type="1">
+<li>You can set access to Open AI.</li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\settings2.png" alt="Figure 2"></p>
+<ol start="3" type="1">
+<li>How many tokens can be in the site, in your account</li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\settings3.png" alt="Figure 3"></p>
+<ol start="4" type="1">
+<li>When using the Open AI key, there’s a rule for the users so that the
+users don’t spend a lot of tokens. You can set news by date added, for
+example not older than 3 days.</li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\settings4.png" alt="Figure 4"></p>
+<ol start="5" type="1">
+<li>You can see the number of used tokens in processed requests,
+reserved tokens for requests, and how many total tokens were used in a
+month.</li>
+</ol>
+<p><image style="max-width: 100%; height: auto;" src="images\settings5.png" alt="Figure 5"></p>
+<p><a id="description"></a></p>
+<h2 id="description-of-the-services-operation">Description of the
+service’s operation</h2>
+<p><a id="frequency"></a></p>
+<h3 id="frequency-of-news-loading">Frequency of news loading</h3>
+<p><a id="assigning-tags"></a></p>
+<h3 id="tagging">Tagging</h3>
+<p>In the Feeds Fun system, ChatGPT plays a key role in the formation of
+tags. Using artificial intelligence, the system analyzes the content of
+the article and automatically assigns relevant tags.</p>
+<p>The processes for determining tags are performed using processors
+located in the librarian/processors directory.</p>
+<p><image style="max-width: 100%; height: auto;" src="images\tegging1.png" alt="Figure 1"></p>
+<p>The main code for working with OpenAI is located in the
+librarian/processors/openai_chat_3_5.py file. We send a request that
+includes the text of the article, and we get relevant tags in
+response.</p>
+<p><image style="max-width: 100%; height: auto;" src="images\tegging2.png" alt="Figure 2"></p>
+<p>Feeds Fun also complements its list of tags from the following
+sources:</p>
+<p>-Meta tags of the site: Information from the meta tags of the site
+from which the article was taken is used to determine tags.</p>
+<p>-Content of the news: If the source provides tags within the news
+itself, Feeds Fun also takes them into account when forming the list of
+tags.</p>
+<p>-Site title: Based on the site title, a special tag named
+“upper-case-title” is created.</p>
+<p>Native tags are obtained using the feedparser module.</p>
+<p><image style="max-width: 100%; height: auto;" src="images\tegging3.png" alt="Figure 3"></p>
+<p>Tagging the “upper-case-title” tag in the code occurs in this
+way:</p>
+<p><image style="max-width: 100%; height: auto;" src="images\tegging4.png" alt="Figure 4"></p>
+<p>This integrated approach allows the system to take into account
+various sources of information, ensuring accuracy and diversity in the
+formation of tags for each article.</p>
+<p><a id="addition"></a></p>
+<h2 id="additional-information">Additional information</h2>
+<p><a id="description-files"></a></p>
+<h3 id="project-file-and-structure-description">Project File and
+Structure Description</h3>
+<pre><code>
+ffun:
+
+    api:
+
+        enities.py  - definition of basic program classes such as Feed, Entry, UserSetting
+
+        http_handlers - HTTP request handlers for a web application
+
+
+
+    &gt;!application:
+
+        application.py - contains the main code for creating and configuring FastAPI-based Web application through it
+
+    &gt;!settings.py - contains settings for PostgreSQL, settings of the application itself: name, domain, port, etc.
+
+    user_settins.py - description of user openai settings.
+
+    &gt;!workers.py - functions to start background processes, loader and feed library
+
+
+
+    auth:
+
+        directory with authorization code in bot via mail
+
+
+
+    cli:
+
+        command line functionality
+
+    core:
+
+         fundamental logic, basic utilities and general functions
+
+
+
+    domain:
+
+        urls.py - file to normalize links
+
+
+
+    feeds:
+
+        entities.py - FeedError:
+
+                network_unknown = 1000
+
+                network_no_address_associated_with_hostname = 1001
+
+                network_name_or_service_not_known = 1002
+
+                network_certificate_verify_failed = 1003
+
+                network_connection_timeout = 1004
+
+                network_read_timeout = 1005
+
+                network_illegal_request_line = 1006
+
+                network_non_200_status_code = 1007
+
+                network_disconection_without_response = 1008
+
+                network_undetected_connection_error = 1009
+
+                network_unsupported_protocol = 1010
+
+                network_server_breaks_connection = 1011
+
+                network_could_not_resolve_host = 1012
+
+
+
+                parsing_unknown = 2000
+
+                parsing_base_error = 2001
+
+                parsing_format_error = 2002
+
+                parsing_unicode_decode_error = 2003
+
+                parsing_feed_content_not_found = 2004
+
+
+
+                protocol_unknown = 3000
+
+                protocol_no_entries_in_feed = 3001
+
+
+
+            FeedState:
+
+                not_loaded = 1
+
+                loaded = 2
+
+                damaged = 3
+
+                orphaned = 4
+
+
+
+        operations.py - operations with database of feeds
+
+
+
+    &gt;!feeds_collections:
+
+        &gt;!collections:
+
+            directory with api links to sites with articles for parsing, for example &quot;http://www.reddit.com/r/proceduralgeneration/.rss&quot;, in general directory to work with collections from links to resources with articles
+
+
+
+    feeds_discoverer:
+
+        domain.py - provides functions for working with domains and extracting tape information (feed) from websites
+
+
+
+    feeds_link:
+
+        directory to manage the database of links to sites with articles, functions of adding the user, removal function etc.
+
+
+
+    librarian:
+
+        functionality for article processing, tagging
+
+
+
+    library:
+
+        work with database of articles, addition to database, tests with database output
+
+
+
+    &gt;!loader - one of the main folders:
+
+ uses many functions of the project:  content downloading, content decoding, content parsing, downloading content using proxy on server and etc
+
+        &gt;!settings.py - loader settings: number of loaders, minimum period between data downloads, proxy.
+
+
+
+    markers:
+
+        work with database, mark about the article read and delete mark.
+
+
+
+    ontology:
+
+        work with tags, add deletion to database
+
+
+
+    openai:
+
+        all work with a neural network, queries for it, getting answers, calculating the number of used
+
+
+
+    parsers:
+
+        code for parser article for example from &quot;http://www.reddit.com/r/proceduralgeneration/.rss&quot;
+
+
+
+    resources:
+
+        domain.py - contains the month start function
+
+        In the main contains work with the user base
+
+
+
+    scores:
+
+        work with tag priorities
+
+
+
+    tags:
+
+        normalization tags
+
+
+
+    user_settings:
+
+        work with us_settings database table
+
+
+
+    users:
+
+         create user_id and add to the table u_mapping
+</code></pre>
+<p><a id="supported-forms"></a></p>
+<h3 id="supported-formats-of-news-sources">Supported formats of news
+sources</h3>
+<p><a id="faq"></a></p>
+<h2 id="faq">FAQ</h2>
